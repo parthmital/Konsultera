@@ -45,7 +45,7 @@ export function Navbar() {
 					className={cn(
 						"flex items-center justify-between rounded-2xl px-4 transition-all duration-500 sm:px-5",
 						scrolled
-							? "h-14 glass border border-border/60 shadow-soft"
+							? "h-14 bg-surface border border-border/60 shadow-soft"
 							: "h-16 border border-transparent bg-transparent",
 					)}
 					aria-label="Primary"
@@ -84,7 +84,7 @@ export function Navbar() {
 				</nav>
 
 				{open && (
-					<div className="glass animate-in mt-2 rounded-2xl border border-border/60 p-2 shadow-soft md:hidden">
+					<div className="bg-surface animate-in mt-2 rounded-2xl border border-border/60 p-2 shadow-soft md:hidden">
 						{siteConfig.navLinks.map((l) => (
 							<Link
 								key={l.to}
