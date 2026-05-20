@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://konsultera.in/sitemap.xml
+Sitemap: https://konsultera.vercel.app/sitemap.xml

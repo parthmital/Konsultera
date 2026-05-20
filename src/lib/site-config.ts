@@ -17,7 +17,7 @@ export interface Service {
 export const siteConfig = {
 	name: "Konsultera",
 	fullName: "Konsultera Solutions Pvt. Ltd.",
-	url: "https://konsultera.in",
+	url: "https://konsultera.vercel.app",
 	metadata: {
 		defaultTitle: "Konsultera - Your Extended Technology Team",
 		defaultDescription:
