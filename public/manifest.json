@@ -1,0 +1,16 @@
+{
+	"name": "Konsultera Solutions",
+	"short_name": "Konsultera",
+	"description": "AI, cloud, DevOps, IoT, big data, and custom application development engineered for enterprise.",
+	"start_url": "/",
+	"display": "standalone",
+	"background_color": "#161819",
+	"theme_color": "#161819",
+	"icons": [
+		{
+			"src": "/favicon.svg",
+			"sizes": "any",
+			"type": "image/svg+xml"
+		}
+	]
+}
